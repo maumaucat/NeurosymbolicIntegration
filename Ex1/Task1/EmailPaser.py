@@ -28,7 +28,7 @@ def is_spam(mail_file) -> bool:
 
 
 # Example usage / test
-folder = Path("C:/Users/ms/Documents/Uni/Master/NeurosymbolischeIntegration/dev2/Datasets/email/test/spam")
+folder = Path("/Datasets/email/test/spam")
 
 for file in folder.iterdir():
     if file.is_file():

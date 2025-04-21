@@ -32,7 +32,7 @@ def get_label(object : dict) -> str:
     return object['Consts'][0]
 
 # Example usage / test
-folder = Path("C:/Users/ms/Documents/Uni/Master/NeurosymbolischeIntegration/dev2/Datasets/shapes/test")
+folder = Path("/Datasets/shapes/test")
 for file in folder.iterdir():
     if file.is_file():
         print("="*50)

@@ -75,7 +75,7 @@ def evaluate_tree(node: Node) -> int:
         return int(node.value)
 
 # Example usage / test
-with open("C:/Users/ms/Documents/Uni/Master/NeurosymbolischeIntegration/dev2/Datasets/math/test.txt", "r", encoding="utf-8") as file:
+with open("/Datasets/math/test.txt", "r", encoding="utf-8") as file:
     for expression in file.readlines():
         print("="*50)
         print(f"Expression: {expression}")

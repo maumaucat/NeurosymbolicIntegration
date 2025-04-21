@@ -1,13 +1,13 @@
 import torch.nn as nn
 import torch
 import torch.nn.functional as F
-from Ex1 import IrisPaser
+from Ex1.Task4 import IrisPaser
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 
 # Define the file paths
-test_file = "C:/Users/ms/Documents/Uni/Master/NeurosymbolischeIntegration/dev2/Datasets/iris/test.csv"
-train_file = "C:/Users/ms/Documents/Uni/Master/NeurosymbolischeIntegration/dev2/Datasets/iris/train.csv"
+test_file = "/Datasets/iris/test.csv"
+train_file = "/Datasets/iris/train.csv"
 
 
 # Define the neural network architecture
